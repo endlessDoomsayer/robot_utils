@@ -19,7 +19,9 @@ install(
   FILES 
     scripts/__init__.py
     scripts/wait_topic.py
+    scripts/model_session.py
     scripts/onnx_session.py
+    scripts/torch_session.py
   DESTINATION ${PYTHON_INSTALL_DIR}/${PROJECT_NAME}
 )
 
